@@ -1,0 +1,25 @@
+* About
+This is a personal website generated from .org files using Emacs.
+
+* Links I found useful
+https://www.youtube.com/watch?v=AfkrzFodoNw
+https://zwpdbh.github.io/emacs/org-to-blog-using-org-publish.html
+https://gitlab.com/psachin/psachin.gitlab.io
+https://orgmode.org/guide/Publishing.html
+
+* TODO
+1. Fix the org-html-divs.
+     (setq org-html-divs '((preamble "header" "top")
+                        (content "main" "content")
+                        (postamble "footer" "postamble"))
+        org-html-container-element "section"
+        org-html-metadata-timestamp-format this-date-format
+        org-html-checkbox-type 'html
+        org-html-html5-fancy t
+        org-html-validation-link t
+        org-html-doctype "html5"
+        org-html-htmlize-output-type 'css
+        org-src-fontify-natively t)
+2. Add real content to the org files.
+3. Fix the css for the pre and postamble
+4. Publish the basic index.html with github pages. 
