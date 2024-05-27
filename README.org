@@ -13,12 +13,12 @@ https://orgmode.org/guide/Publishing.html
 
 * Inspirations
 https://sdomi.pl/
+
 https://protesilaos.com/
 
 * TODO
  * Add script to generate index.org for blog. (Read file names in "blog", excluding index.org, and add them to index.org) NOTE: Include the date.
  * Generate RSS feed from index.org in "blog". I have no clue how to do this yet.
- * Publish the basic index.html with github pages.
 
 * License
 The files in this repository are licensed under either GPLv3 or CC BY-SA 4.0. See [[https://moujal.li/license][license]] for further details. 
