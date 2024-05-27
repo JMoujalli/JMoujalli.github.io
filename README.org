@@ -4,8 +4,11 @@ See my [[https://moujal.li/blog/][blog]] for some further detail.
 
 * Links I found useful
 https://www.youtube.com/watch?v=AfkrzFodoNw
+
 https://zwpdbh.github.io/emacs/org-to-blog-using-org-publish.html
+
 https://gitlab.com/psachin/psachin.gitlab.io
+
 https://orgmode.org/guide/Publishing.html
 
 * Inspirations
