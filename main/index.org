@@ -1,10 +1,15 @@
-#+title: My Webpage
+#+title: Jacob's Website
 #+author: Jacob Moujalli
 
-* First Heading
-This is the first heading to test the html output.
+* About
+Welcome to my website. My name is Jacob Moujalli I am a physics enthusiast, emacs noob, and free software enjoyer.
+I have formal qualifications in physics from the University of Technology, Sydney and the University of New South Wales, Sydney.
+In the future I am hoping to start a Masters degree focused on Astroparticle physics.
+Currently I am interested in dark matter and neutrino physics, specifically simulating/modelling detectors.
 
-** Smaller Heading
-Further tests.
+This website was generated using Emacs and was written in org mode.
+The purpose of this website is to allow me to document my interests in the form of blog posts and to have my own part of the internet.
 
-[[./test.org][test]]
+* Contact
+The best way to get in contact with me is through [[mailto:Jacob.Moujalli@hotmail.com][email]].
+Alternatively, you may add me on [[https://jami.net/][Jami]]. My account ID is "JacobMoujalli".

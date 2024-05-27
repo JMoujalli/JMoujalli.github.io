@@ -1,0 +1,10 @@
+#+TITLE:License
+#+AUTHOR:Jacob Moujalli
+
+* License
+
+All content on this website, unless stated otherwise, is the work of Jacob Moujalli and have the following licenses.
+
+Original text is licensed under [[https://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+
+Original code is licensed under [[https://www.gnu.org/licenses/gpl-3.0.html][GPLv3]].

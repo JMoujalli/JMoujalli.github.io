@@ -21,28 +21,18 @@
 
 ;; Imports the preamble html from preamble.html
 (defun preamble (plist)
-  ;; "PLIST: An entry."
-  ;; (if (org-export-get-date plist this-date-format)
-  ;;     (plist-put plist
-  ;;                :subtitle (format "Published on %s by %s."
-  ;;                                  (org-export-get-date plist this-date-format)
-  ;;                                  (car (plist-get plist :author)))))
-  ;; ;; Preamble
   (with-temp-buffer
     (insert-file-contents "../html-template/preamble.html") (buffer-string)))
 
 ;; Imports the postamble html from postamble.html
 (defun postamble (plist)
-  ;; "PLIST: An entry."
-  ;; (if (org-export-get-date plist this-date-format)
-  ;;     (plist-put plist
-  ;;                :subtitle (format "Published on %s by %s."
-  ;;                                  (org-export-get-date plist this-date-format)
-  ;;                                  (car (plist-get plist :author)))))
-  ;; ;; Postamble
   (with-temp-buffer
     (insert-file-contents "../html-template/postamble.html") (buffer-string)))
 
+(setq org-html-divs '((preamble "header" "top")
+                      (content "main" "content")
+                      (postamble "footer" "postamble"))
+      org-html-metadata-timestamp-format this-date-format)
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -52,6 +42,7 @@
 	     :base-directory "./main"
 	     :publishing-function 'org-html-publish-to-html
 	     :publishing-directory "./public"
+	     :with-title nil
 	     :with-author nil
 	     :with-creator nil
 	     :with-toc nil
@@ -63,13 +54,15 @@
 	     :html-head "<link rel=\"stylesheet\" href=\"./css/simple.css\" />"
 	     :html-preamble 'preamble
 	     :html-postamble 'postamble)
-       (list "posts"
+       (list "blog"
 	     :recursive t
-	     :base-directory "./posts"
+	     :base-directory "./blog"
 	     :publishing-function 'org-html-publish-to-html
-	     :publishing-directory "./public/posts"
-	     :with-author nil
-	     :with-creator nil
+	     :publishing-directory "./public/blog"
+	     :with-title nil
+	     :with-author t
+	     :with-creator t
+	     :with-date t
 	     :with-toc nil
 	     :section-numbers nil
 	     :html-validation-link nil
@@ -77,6 +70,7 @@
 	     :html-head-include-default-style nil
 	     :time-stamp-file nil
 	     :html-head "<link rel=\"stylesheet\" href=\"../css/simple.css\" />"
+	     ;; :html-head "<link rel='icon' type='image/x-icon' href='../attachment/favicon.ico'/>"
 	     :html-preamble 'preamble
 	     :html-postamble 'postamble)
        (list "css"
@@ -85,12 +79,12 @@
 	     :base-extension "css"
 	     :publishing-function 'org-publish-attachment
 	     :publishing-directory "./public/css/")
-       (list "attachment"
+       (list "assets"
 	     :recursive t
-	     :base-directory "./attachment"
-	     :base-extension '("webm")
+	     :base-directory "./assets"
+	     :base-extension 'any'
 	     :publishing-function 'org-publish-attachment
-	     :publishing-directory "./public/attachment/")))
+	     :publishing-directory "./public/assets/")))
 
 ;; Generate the site output
 (org-publish-all t)

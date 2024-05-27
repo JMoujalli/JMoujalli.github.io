@@ -65,6 +65,9 @@ html {
   /* Set the font globally */
   font-family: var(--sans-font);
   scroll-behavior: smooth;
+  /* The following ensures that the scrollbar does not move the content. */
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 /* Make the body a nice central block */
@@ -75,7 +78,9 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(45rem, 90%) 1fr;
-  margin: 0;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0px;
 }
 body > * {
   grid-column: 2;
@@ -83,11 +88,11 @@ body > * {
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
-  background-color: var(--accent-bg);
+  /* background-color: var(--accent-bg); */
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 0 0.5rem 2rem 0.5rem;
-  grid-column: 1 / -1;
+  /* padding: 0 0.5rem 2rem 0.5rem; */
+  /* grid-column: 1 / -1; */
 }
 
 body > header > *:only-child {
@@ -97,6 +102,7 @@ body > header > *:only-child {
 body > header h1 {
   max-width: 1200px;
   margin: 1rem auto;
+  font-size: 3rem;
 }
 
 body > header p {
@@ -106,47 +112,17 @@ body > header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-  padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
+    /* NOTE: The margin causes issues with text alignment.  */
+    /* margin: 0 auto; */
 }
 
 body > footer {
-  margin-top: 4rem;
-  padding: 2rem 1rem 1.5rem 1rem;
-  color: var(--text-light);
-  font-size: 0.9rem;
-  text-align: center;
-  border-top: 1px solid var(--border);
-}
-
-/* Format headers */
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.6rem;
-  margin-top: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-  margin-top: 3rem;
-}
-
-h4 {
-  font-size: 1.44rem;
-}
-
-h5 {
-  font-size: 1.15rem;
-}
-
-h6 {
-  font-size: 0.96rem;
-}
-
-p {
-  margin: 1.5rem 0;
+    margin-top: 4rem;
+    padding: 2rem 1rem 0rem 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    text-align: center;
 }
 
 /* Prevent long strings from overflowing container */
@@ -162,23 +138,23 @@ h3 {
 }
 
 /* Reduce header size on mobile */
-@media only screen and (max-width: 720px) {
-  h1 {
-    font-size: 2.5rem;
-  }
+/* @media only screen and (max-width: 720px) { */
+/*   h1 { */
+/*     font-size: 2.5rem; */
+/*   } */
 
-  h2 {
-    font-size: 2.1rem;
-  }
+/*   h2 { */
+/*     font-size: 2.1rem; */
+/*   } */
 
-  h3 {
-    font-size: 1.75rem;
-  }
+/*   h3 { */
+/*     font-size: 1.75rem; */
+/*   } */
 
-  h4 {
-    font-size: 1.25rem;
-  }
-}
+/*   h4 { */
+/*     font-size: 1.25rem; */
+/*   } */
+/* } */
 
 /* Format links & buttons */
 a,
@@ -205,7 +181,7 @@ label[type="button"] {
   line-height: normal;
 }
 
-.button[aria-disabled="true"], 
+.button[aria-disabled="true"],
 input:disabled,
 textarea:disabled,
 select:disabled,

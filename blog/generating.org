@@ -1,0 +1,5 @@
+#+TITLE:Generating A Personal Website With Emacs
+#+AUTHOR: Jacob Moujalli
+#+DATE: <2024-05-27 Mon>
+
+** [2024-05-27] Generating A Personal Website With Emacs
