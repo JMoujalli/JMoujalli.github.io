@@ -5,11 +5,10 @@ on:
     branches:
       - master
 
-permissions:
-	contents: write
-
 jobs:
   publish:
+    permissions:
+	contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Check out
