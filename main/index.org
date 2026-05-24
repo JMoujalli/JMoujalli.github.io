@@ -2,10 +2,8 @@
 #+author: Jacob Moujalli
 
 * About
-Welcome to my website. My name is Jacob Moujalli I am a physics enthusiast, emacs noob, and free software enjoyer.
+Welcome to my website. My name is Jacob G. Moujalli I am a physics enthusiast, emacs noob, and free software enjoyer.
 I have formal qualifications in physics from the University of Technology, Sydney and the University of New South Wales, Sydney.
-In the future I am hoping to start a Masters degree focused on Astroparticle physics.
-Currently I am interested in dark matter and neutrino physics, specifically simulating/modelling detectors.
 
 This website was generated using Emacs and was written in org mode.
 The purpose of this website is to allow me to document my interests in the form of blog posts and to have my own part of the internet.
