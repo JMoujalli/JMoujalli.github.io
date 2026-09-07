@@ -76,7 +76,7 @@
 	     :publishing-function 'org-html-publish-to-html
 	     :publishing-directory "./public/blog"
 	     :exclude "index.org"
-	     :with-title nil
+	     :with-title t
 	     :with-author t
 	     :with-creator t
 	     :with-date t

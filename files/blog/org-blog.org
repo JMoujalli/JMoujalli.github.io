@@ -2,6 +2,8 @@
 #+TITLE: Blogging with Emacs and Org Mode
 #+DATE: <2026-09-07 Mon>
 
+<2026-09-07 Mon>
+
 Welcome to my first post!
 
 Over the years I've had several websites, but I failed to maintain them after an initial burst of interest and they eventually faded into obscurity.

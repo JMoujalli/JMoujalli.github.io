@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:georss="http://www.georss.org/georss"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link href="https://moujal.li/blog.xml" rel="self" type="application/rss+xml" />
+<title>Jacob Moujalli's Blog Posts</title>
+<link>https://moujal.li</link>
+<description><![CDATA[Blog posts on various topics.]]></description>
+<language>en</language>
+<lastBuildDate>Mon, 07 Sep 2026 23:42:01 +0000</lastBuildDate>
+<generator>Emacs 30.1 org-publish-rss.el 0.9</generator>
+<item>
+<title>Blogging with Emacs and Org Mode</title>
+<link>https://moujal.li/org-blog.html</link>
+<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+<guid>https://moujal.li/org-blog.html</guid>
+<description>
+<![CDATA[<p>
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2026-09-07 Mon&gt;</span></span>
+</p>
+
+<p>
+Welcome to my first post!
+</p>
+
+<p>
+Over the years I've had several websites, but I failed to maintain them after an initial burst of interest and they eventually faded into obscurity.
+This is my latest attempt and, although it took a very long time (I started in 2024), I have finally got it to a point that I am happy. There are a number of key features that make it easy to maintain so I can hopefully post more regularly.
+Throughout this post I will answer questions such as why I have a website, for whom I am writing, what I am writing, and some of the technical details.
+My blog post writing skills are a little rusty, so bear with me.
+</p>
+<div id="outline-container-orgc19e3f5" class="outline-2">
+<h2 id="orgc19e3f5"><span class="section-number-2">1.</span> Why do you have a website?</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+There are a number of reasons why a person may want a website.
+In the online spaces I engage with, websites are fairly standard and often take the place of platforms such as LinkedIn.
+This is atypical for younger or less tech literate people for whom creating a website may seem difficult or a waste of time.
+As someone who is interested in <a href="https://www.fsf.org/about/what-is-free-software">Free Software</a> and <a href="https://en.wikipedia.org/wiki/Digital_sovereignty">Digital Sovereignty</a>, creating a website and a blog is a no-brainer; it presents an opportunity for expression which is not dependent on large tech companies.
+</p>
+
+<p>
+Also, it's just cool to have your own website.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfcc22ac" class="outline-2">
+<h2 id="orgfcc22ac"><span class="section-number-2">2.</span> Who is it for?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Me.
+</p>
+
+<p>
+I don't really expect anyone to be reading (if you are, thanks!) The blog is just for me to collect information and document interests in a way that feels more meaningful than a file on my computer. If others benefit, that's great to.
+</p>
+</div>
+</div>
+<div id="outline-container-org48c308c" class="outline-2">
+<h2 id="org48c308c"><span class="section-number-2">3.</span> What will I write?</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+My interests have varied greatly throughout my life, but this website is likely to focus on technology, physics, and education. Currently, I have a single, all-encompassing, blog but in the future I may separate it into smaller blogs with their own RSS feeds. I am considering writing reviews for music, movies, and art I enjoy.
+</p>
+
+<p>
+I like scientific writing, but I don't think I will publish much here; maybe the occasional essay?
+</p>
+</div>
+</div>
+<div id="outline-container-org8a69d1e" class="outline-2">
+<h2 id="org8a69d1e"><span class="section-number-2">4.</span> How does it work?</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+The short of it is, using Emacs and Org Mode. I write an org file and this is exported into HTML using a script I wrote (leveraging existing Emacs functions). I may add some more details here at another time but for now I leave the following resources that I found useful.
+</p>
+
+<p>
+<a href="https://www.youtube.com/watch?v=AfkrzFodoNw">https://www.youtube.com/watch?v=AfkrzFodoNw</a>
+</p>
+
+<p>
+<a href="https://zwpdbh.github.io/emacs/org-to-blog-using-org-publish.html">https://zwpdbh.github.io/emacs/org-to-blog-using-org-publish.html</a>
+</p>
+
+<p>
+<a href="https://gitlab.com/psachin/psachin.gitlab.io">https://gitlab.com/psachin/psachin.gitlab.io</a>
+</p>
+
+<p>
+<a href="https://orgmode.org/guide/Publishing.html">https://orgmode.org/guide/Publishing.html</a>
+</p>
+
+<p>
+<a href="https://orgmode.org/worg/org-blog-wiki.html">https://orgmode.org/worg/org-blog-wiki.html</a>
+</p>
+
+<p>
+<a href="https://taingram.org/blog/org-mode-blog.html">https://taingram.org/blog/org-mode-blog.html</a>
+</p>
+
+<p>
+<a href="https://git.sr.ht/~taingram/org-publish-rss/">https://git.sr.ht/~taingram/org-publish-rss/</a>
+</p>
+
+<p>
+<a href="https://alhassy.com/">https://alhassy.com/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc250ef3" class="outline-2">
+<h2 id="orgc250ef3"><span class="section-number-2">5.</span> <span class="todo TODO">TODO</span> </h2>
+<div class="outline-text-2" id="text-5">
+<p>
+While the general function is pretty good, I still want to make some changes to the CSS to improve the look.
+Also, as I mentioned, I think I will add additional blogs for specific topics similar to <a href="https://protesilaos.com/">Protesilaos'</a> blog.
+To do this I will need to modify <a href="https://git.sr.ht/~taingram/org-publish-rss/">org-publish-rss.el</a> to somehow compile multiple RSS feeds.
+</p>
+
+<p>
+It is a great shame that this site is hosted on Github. I will, when time permits, move this site to my own VPS in an attempt to further free myself of Mircosoft.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf4e2877" class="outline-2">
+<h2 id="orgf4e2877"><span class="section-number-2">6.</span> Other useful links</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+These are some other useful websites and blogs that partially informed/inspired this blog.
+</p>
+
+<p>
+<a href="https://protesilaos.com/">https://protesilaos.com/</a>
+</p>
+
+<p>
+<a href="https://sachachua.com/blog/">https://sachachua.com/blog/</a>
+</p>
+
+<p>
+<a href="https://landchad.net/">https://landchad.net/</a>
+</p>
+
+<p>
+<a href="https://lukesmith.xyz/">https://lukesmith.xyz/</a>
+</p>
+
+<p>
+<a href="https://www.taingram.org/">https://www.taingram.org/</a>
+</p>
+
+<p>
+<a href="https://sdomi.pl/">https://sdomi.pl/</a>
+</p>
+
+<p>
+<a href="https://terrytao.wordpress.com/">https://terrytao.wordpress.com/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org4711d1f" class="outline-2">
+<h2 id="org4711d1f"><span class="section-number-2">7.</span> Comments</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Have any comments?
+Feel free to <a href="mailto:Jacob.Moujalli@hotmail.com">email me</a>.
+</p>
+</div>
+</div>
+]]>
+</description></item>
+</channel>
+</rss>
