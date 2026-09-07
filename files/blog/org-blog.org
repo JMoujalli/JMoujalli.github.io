@@ -1,0 +1,75 @@
+#+AUTHOR: Jacob G. Moujalli
+#+TITLE: Blogging with Emacs and Org Mode
+#+DATE: <2026-09-07 Mon>
+
+Welcome to my first post!
+
+Over the years I've had several websites, but I failed to maintain them after an initial burst of interest and they eventually faded into obscurity.
+This is my latest attempt and, although it took a very long time (I started in 2024), I have finally got it to a point that I am happy. There are a number of key features that make it easy to maintain so I can hopefully post more regularly.
+Throughout this post I will answer questions such as why I have a website, for whom I am writing, what I am writing, and some of the technical details.
+My blog post writing skills are a little rusty, so bear with me.
+
+* Why do you have a website?
+There are a number of reasons why a person may want a website.
+In the online spaces I engage with, websites are fairly standard and often take the place of platforms such as LinkedIn.
+This is atypical for younger or less tech literate people for whom creating a website may seem difficult or a waste of time.
+As someone who is interested in [[https://www.fsf.org/about/what-is-free-software][Free Software]] and [[https://en.wikipedia.org/wiki/Digital_sovereignty][Digital Sovereignty]], creating a website and a blog is a no-brainer; it presents an opportunity for expression which is not dependent on large tech companies.
+
+Also, it's just cool to have your own website.
+
+* Who is it for?
+Me.
+
+I don't really expect anyone to be reading (if you are, thanks!) The blog is just for me to collect information and document interests in a way that feels more meaningful than a file on my computer. If others benefit, that's great to.
+
+* What will I write?
+My interests have varied greatly throughout my life, but this website is likely to focus on technology, physics, and education. Currently, I have a single, all-encompassing, blog but in the future I may separate it into smaller blogs with their own RSS feeds. I am considering writing reviews for music, movies, and art I enjoy.
+
+I like scientific writing, but I don't think I will publish much here; maybe the occasional essay?
+
+* How does it work?
+The short of it is, using Emacs and Org Mode. I write an org file and this is exported into HTML using a script I wrote (leveraging existing Emacs functions). I may add some more details here at another time but for now I leave the following resources that I found useful.
+
+https://www.youtube.com/watch?v=AfkrzFodoNw
+
+https://zwpdbh.github.io/emacs/org-to-blog-using-org-publish.html
+
+https://gitlab.com/psachin/psachin.gitlab.io
+
+https://orgmode.org/guide/Publishing.html
+
+https://orgmode.org/worg/org-blog-wiki.html
+
+https://taingram.org/blog/org-mode-blog.html
+
+https://git.sr.ht/~taingram/org-publish-rss/
+
+https://alhassy.com/
+
+* TODO
+While the general function is pretty good, I still want to make some changes to the CSS to improve the look.
+Also, as I mentioned, I think I will add additional blogs for specific topics similar to [[https://protesilaos.com/][Protesilaos']] blog.
+To do this I will need to modify [[https://git.sr.ht/~taingram/org-publish-rss/][org-publish-rss.el]] to somehow compile multiple RSS feeds.
+
+It is a great shame that this site is hosted on Github. I will, when time permits, move this site to my own VPS in an attempt to further free myself of Mircosoft.
+
+* Other useful links
+These are some other useful websites and blogs that partially informed/inspired this blog.
+
+https://protesilaos.com/
+
+https://sachachua.com/blog/
+
+https://landchad.net/
+
+https://lukesmith.xyz/
+
+https://www.taingram.org/
+
+https://sdomi.pl/
+
+https://terrytao.wordpress.com/
+
+* Comments
+Have any comments?
+Feel free to [[mailto:Jacob.Moujalli@hotmail.com][email me]].

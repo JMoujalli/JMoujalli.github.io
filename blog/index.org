@@ -1,4 +1,0 @@
-#+TITLE: Jacob's Blog
-#+AUTHOR: Jacob Moujalli
-
- * Blog to go here.

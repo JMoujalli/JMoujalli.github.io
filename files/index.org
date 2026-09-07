@@ -1,0 +1,16 @@
+#+title: Jacob's Website
+#+author: Jacob Moujalli
+
+* About
+Welcome to my website. My name is Jacob G. Moujalli I am a physics enthusiast, Emacs noob, and Free software enjoyer.
+I have formal qualifications in physics from the University of Technology, Sydney (UTS) and the University of New South Wales, Sydney (UNSW).
+
+This website was generated using Emacs and org mode to document my interests as blog posts. Topics may include physics, technology, education, among others.
+
+* Contact
+The best way to get in contact with me is through [[mailto:Jacob.Moujalli@hotmail.com][email]].
+
+* Recent Blog Posts
+#+HTML: <div class="blog-entries">
+#+INCLUDE: ./blog/sitemap.org :lines "2-"
+#+HTML: </div>

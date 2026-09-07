@@ -1,0 +1,9 @@
+#+title: Posts
+#+author: Jacob Moujalli
+
+The following is a list of my blog posts. I currently have a single blog which covers all of my posts, but in the future I may attempt to split the posts (and their RSS feeds) into separate blogs.
+
+* Blog
+#+HTML: <div class="blog-entries">
+#+INCLUDE: ./blog/sitemap.org :lines "2-"
+#+HTML: </div>
