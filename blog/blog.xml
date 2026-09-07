@@ -1,30 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:georss="http://www.georss.org/georss"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link href="https://moujal.li/blog.xml" rel="self" type="application/rss+xml" />
+<title>Jacob Moujalli's Blog Posts</title>
+<link>https://moujal.li</link>
+<description><![CDATA[Blog posts on various topics.]]></description>
+<language>en</language>
+<lastBuildDate>Mon, 07 Sep 2026 23:42:01 +0000</lastBuildDate>
+<generator>Emacs 30.1 org-publish-rss.el 0.9</generator>
+<item>
 <title>Blogging with Emacs and Org Mode</title>
-<meta name="author" content="Jacob G. Moujalli" />
-<meta name="generator" content="Org Mode" />
-<link rel="stylesheet" href="/simple.css" type="text/css"/>
-<link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
-</head>
-<body>
-<header id="top" class="status">
-<div class='intro'>
-  <h1>
-    Jacob's Website
-  </h1>
-</div>
-
-<div class='nav'>
-<p> <a href='https://moujal.li'>Main</a> • <a href='https://moujal.li/blog/'>Blog</a> • <a href='https://moujal.li/blog/blog.xml'>RSS</a></p>
-</div>
-</header>
-<main id="content" class="content">
-<header>
-<h1 class="title">Blogging with Emacs and Org Mode</h1>
-</header><p>
+<link>https://moujal.li/org-blog.html</link>
+<pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+<guid>https://moujal.li/org-blog.html</guid>
+<description>
+<![CDATA[<p>
 <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-09-07 Mon&gt;</span></span>
 </p>
 
@@ -38,10 +37,9 @@ This is my latest attempt and, although it took a very long time (I started in 2
 Throughout this post I will answer questions such as why I have a website, for whom I am writing, what I am writing, and some of the technical details.
 My blog post writing skills are a little rusty, so bear with me.
 </p>
-
-<div id="outline-container-orgdfb6480" class="outline-2">
-<h2 id="orgdfb6480">Why do you have a website?</h2>
-<div class="outline-text-2" id="text-orgdfb6480">
+<div id="outline-container-orgc19e3f5" class="outline-2">
+<h2 id="orgc19e3f5"><span class="section-number-2">1.</span> Why do you have a website?</h2>
+<div class="outline-text-2" id="text-1">
 <p>
 There are a number of reasons why a person may want a website.
 In the online spaces I engage with, websites are fairly standard and often take the place of platforms such as LinkedIn.
@@ -54,10 +52,9 @@ Also, it's just cool to have your own website.
 </p>
 </div>
 </div>
-
-<div id="outline-container-org6366a0a" class="outline-2">
-<h2 id="org6366a0a">Who is it for?</h2>
-<div class="outline-text-2" id="text-org6366a0a">
+<div id="outline-container-orgfcc22ac" class="outline-2">
+<h2 id="orgfcc22ac"><span class="section-number-2">2.</span> Who is it for?</h2>
+<div class="outline-text-2" id="text-2">
 <p>
 Me.
 </p>
@@ -67,10 +64,9 @@ I don't really expect anyone to be reading (if you are, thanks!) The blog is jus
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgf2694ab" class="outline-2">
-<h2 id="orgf2694ab">What will I write?</h2>
-<div class="outline-text-2" id="text-orgf2694ab">
+<div id="outline-container-org48c308c" class="outline-2">
+<h2 id="org48c308c"><span class="section-number-2">3.</span> What will I write?</h2>
+<div class="outline-text-2" id="text-3">
 <p>
 My interests have varied greatly throughout my life, but this website is likely to focus on technology, physics, and education. Currently, I have a single, all-encompassing, blog but in the future I may separate it into smaller blogs with their own RSS feeds. I am considering writing reviews for music, movies, and art I enjoy.
 </p>
@@ -80,10 +76,9 @@ I like scientific writing, but I don't think I will publish much here; maybe the
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgca3efae" class="outline-2">
-<h2 id="orgca3efae">How does it work?</h2>
-<div class="outline-text-2" id="text-orgca3efae">
+<div id="outline-container-org8a69d1e" class="outline-2">
+<h2 id="org8a69d1e"><span class="section-number-2">4.</span> How does it work?</h2>
+<div class="outline-text-2" id="text-4">
 <p>
 The short of it is, using Emacs and Org Mode. I write an org file and this is exported into HTML using a script I wrote (leveraging existing Emacs functions). I may add some more details here at another time but for now I leave the following resources that I found useful.
 </p>
@@ -121,10 +116,9 @@ The short of it is, using Emacs and Org Mode. I write an org file and this is ex
 </p>
 </div>
 </div>
-
-<div id="outline-container-org5f59dbc" class="outline-2">
-<h2 id="org5f59dbc">TODO</h2>
-<div class="outline-text-2" id="text-org5f59dbc">
+<div id="outline-container-orgc250ef3" class="outline-2">
+<h2 id="orgc250ef3"><span class="section-number-2">5.</span> <span class="todo TODO">TODO</span> </h2>
+<div class="outline-text-2" id="text-5">
 <p>
 While the general function is pretty good, I still want to make some changes to the CSS to improve the look.
 Also, as I mentioned, I think I will add additional blogs for specific topics similar to <a href="https://protesilaos.com/">Protesilaos'</a> blog.
@@ -136,10 +130,9 @@ It is a great shame that this site is hosted on Github. I will, when time permit
 </p>
 </div>
 </div>
-
-<div id="outline-container-org2b78676" class="outline-2">
-<h2 id="org2b78676">Other useful links</h2>
-<div class="outline-text-2" id="text-org2b78676">
+<div id="outline-container-orgf4e2877" class="outline-2">
+<h2 id="orgf4e2877"><span class="section-number-2">6.</span> Other useful links</h2>
+<div class="outline-text-2" id="text-6">
 <p>
 These are some other useful websites and blogs that partially informed/inspired this blog.
 </p>
@@ -173,23 +166,16 @@ These are some other useful websites and blogs that partially informed/inspired 
 </p>
 </div>
 </div>
-
-<div id="outline-container-org6e36808" class="outline-2">
-<h2 id="org6e36808">Comments</h2>
-<div class="outline-text-2" id="text-org6e36808">
+<div id="outline-container-org4711d1f" class="outline-2">
+<h2 id="org4711d1f"><span class="section-number-2">7.</span> Comments</h2>
+<div class="outline-text-2" id="text-7">
 <p>
 Have any comments?
 Feel free to <a href="mailto:Jacob.Moujalli@hotmail.com">email me</a>.
 </p>
 </div>
 </div>
-</main>
-<footer id="postamble" class="status">
-<div class="footer-block">
-<p>
-Copyright (c) 2024 Jacob Moujalli. See <a rel="license" href="https://moujal.li/license">license</a> for details.
-</p>
-</div>
-</footer>
-</body>
-</html>
+]]>
+</description></item>
+</channel>
+</rss>
