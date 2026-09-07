@@ -102,7 +102,7 @@
 	     :rss-file "blog.xml"
 	     :rss-title "Jacob Moujalli's Blog Posts"
 	     :rss-description "Blog posts on various topics."
-	     :html-link-home "https://moujal.li"
+	     :html-link-home "https://moujal.li/blog/"
 	     :rss-with-content 'all
 	     :completion-function 'org-publish-rss)
 

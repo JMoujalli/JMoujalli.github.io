@@ -10,18 +10,18 @@
  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
  xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
-<atom:link href="https://moujal.li/blog.xml" rel="self" type="application/rss+xml" />
+<atom:link href="https://moujal.li/blog/blog.xml" rel="self" type="application/rss+xml" />
 <title>Jacob Moujalli's Blog Posts</title>
-<link>https://moujal.li</link>
+<link>https://moujal.li/blog/</link>
 <description><![CDATA[Blog posts on various topics.]]></description>
 <language>en</language>
-<lastBuildDate>Mon, 07 Sep 2026 23:42:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 23:49:55 +0000</lastBuildDate>
 <generator>Emacs 30.1 org-publish-rss.el 0.9</generator>
 <item>
 <title>Blogging with Emacs and Org Mode</title>
-<link>https://moujal.li/org-blog.html</link>
+<link>https://moujal.li/blog/org-blog.html</link>
 <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-<guid>https://moujal.li/org-blog.html</guid>
+<guid>https://moujal.li/blog/org-blog.html</guid>
 <description>
 <![CDATA[<p>
 <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-09-07 Mon&gt;</span></span>
@@ -37,8 +37,8 @@ This is my latest attempt and, although it took a very long time (I started in 2
 Throughout this post I will answer questions such as why I have a website, for whom I am writing, what I am writing, and some of the technical details.
 My blog post writing skills are a little rusty, so bear with me.
 </p>
-<div id="outline-container-orgc19e3f5" class="outline-2">
-<h2 id="orgc19e3f5"><span class="section-number-2">1.</span> Why do you have a website?</h2>
+<div id="outline-container-org155c071" class="outline-2">
+<h2 id="org155c071"><span class="section-number-2">1.</span> Why do you have a website?</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 There are a number of reasons why a person may want a website.
@@ -52,8 +52,8 @@ Also, it's just cool to have your own website.
 </p>
 </div>
 </div>
-<div id="outline-container-orgfcc22ac" class="outline-2">
-<h2 id="orgfcc22ac"><span class="section-number-2">2.</span> Who is it for?</h2>
+<div id="outline-container-org7cee049" class="outline-2">
+<h2 id="org7cee049"><span class="section-number-2">2.</span> Who is it for?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Me.
@@ -64,8 +64,8 @@ I don't really expect anyone to be reading (if you are, thanks!) The blog is jus
 </p>
 </div>
 </div>
-<div id="outline-container-org48c308c" class="outline-2">
-<h2 id="org48c308c"><span class="section-number-2">3.</span> What will I write?</h2>
+<div id="outline-container-orgddebbc5" class="outline-2">
+<h2 id="orgddebbc5"><span class="section-number-2">3.</span> What will I write?</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 My interests have varied greatly throughout my life, but this website is likely to focus on technology, physics, and education. Currently, I have a single, all-encompassing, blog but in the future I may separate it into smaller blogs with their own RSS feeds. I am considering writing reviews for music, movies, and art I enjoy.
@@ -76,8 +76,8 @@ I like scientific writing, but I don't think I will publish much here; maybe the
 </p>
 </div>
 </div>
-<div id="outline-container-org8a69d1e" class="outline-2">
-<h2 id="org8a69d1e"><span class="section-number-2">4.</span> How does it work?</h2>
+<div id="outline-container-orge41958c" class="outline-2">
+<h2 id="orge41958c"><span class="section-number-2">4.</span> How does it work?</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 The short of it is, using Emacs and Org Mode. I write an org file and this is exported into HTML using a script I wrote (leveraging existing Emacs functions). I may add some more details here at another time but for now I leave the following resources that I found useful.
@@ -116,8 +116,8 @@ The short of it is, using Emacs and Org Mode. I write an org file and this is ex
 </p>
 </div>
 </div>
-<div id="outline-container-orgc250ef3" class="outline-2">
-<h2 id="orgc250ef3"><span class="section-number-2">5.</span> <span class="todo TODO">TODO</span> </h2>
+<div id="outline-container-orgef46af2" class="outline-2">
+<h2 id="orgef46af2"><span class="section-number-2">5.</span> <span class="todo TODO">TODO</span> </h2>
 <div class="outline-text-2" id="text-5">
 <p>
 While the general function is pretty good, I still want to make some changes to the CSS to improve the look.
@@ -130,8 +130,8 @@ It is a great shame that this site is hosted on Github. I will, when time permit
 </p>
 </div>
 </div>
-<div id="outline-container-orgf4e2877" class="outline-2">
-<h2 id="orgf4e2877"><span class="section-number-2">6.</span> Other useful links</h2>
+<div id="outline-container-org054b9c6" class="outline-2">
+<h2 id="org054b9c6"><span class="section-number-2">6.</span> Other useful links</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 These are some other useful websites and blogs that partially informed/inspired this blog.
@@ -166,8 +166,8 @@ These are some other useful websites and blogs that partially informed/inspired 
 </p>
 </div>
 </div>
-<div id="outline-container-org4711d1f" class="outline-2">
-<h2 id="org4711d1f"><span class="section-number-2">7.</span> Comments</h2>
+<div id="outline-container-org03a9b91" class="outline-2">
+<h2 id="org03a9b91"><span class="section-number-2">7.</span> Comments</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 Have any comments?
