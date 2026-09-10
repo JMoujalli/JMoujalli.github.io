@@ -1,7 +1,8 @@
 #+TITLE: Blog Posts
 #+AUTHOR: Jacob G. Moujalli
 
-The following is a list of my blog posts. I currently have a single blog which covers all of my posts, but in the future I may attempt to split the posts (and their RSS feeds) into separate blogs.
+The following is a list of my blog posts.
+I currently have a single blog which covers all of my posts, but in the future I may attempt to split the posts (and their RSS feeds) into separate blogs.
 
 * Posts
 #+HTML: <div class="blog-entries">
