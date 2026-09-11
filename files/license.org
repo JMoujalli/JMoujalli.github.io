@@ -1,5 +1,6 @@
-#+TITLE:License
-#+AUTHOR:Jacob Moujalli
+#+TITLE: License
+#+AUTHOR: Jacob G. Moujalli
+#+DESCRIPTION: The website and blog of Jacob G. Moujalli. This site contains writings on topics such as, but not limited to, physics, technology, and education. This page contains the licenses which govern the content of this website.
 
 * License
 

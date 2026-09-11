@@ -1,5 +1,6 @@
-#+title: Posts
-#+author: Jacob Moujalli
+#+TITLE: Posts
+#+AUTHOR: Jacob G. Moujalli
+#+DESCRIPTION: The website and blog of Jacob G. Moujalli. This site contains writings on topics such as, but not limited to, physics, technology, and education. This page lists the various blogs which I maintain.
 
 The following is a list of my blog posts. I currently have a single blog which covers all of my posts, but in the future I may attempt to split the posts (and their RSS feeds) into separate blogs.
 

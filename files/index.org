@@ -1,11 +1,15 @@
-#+title: Jacob's Website
-#+author: Jacob Moujalli
+#+TITLE: Jacob's Website
+#+AUTHOR: Jacob G. Moujalli
+#+DESCRIPTION: The website and blog of Jacob G. Moujalli. This site contains writings on topics such as, but not limited to, physics, technology, and education. 
 
 * About
 Welcome to my website, my name is Jacob G. Moujalli.
 
 I am a physics enthusiast, Emacs noob, and Free software enjoyer.
 With formal qualifications in physics from the University of Technology Sydney (UTS) and the University of New South Wales (UNSW) as well a Master of Teaching from UNSW, you can expect me to be writing about physics, technology, and education.
+None of the writing on this website is done with any AI tools.
+All opinions presented are my own and do not represent my colleagues or employers.
+Further, writings represent my opinion at a given point, it will likely change.
 
 I am currently doing a Master of Education with a focus on giftedness, also at UNSW.
 
@@ -16,8 +20,3 @@ The best way to get in contact with me is through [[mailto:Jacob.Moujalli@hotmai
 #+HTML: <div class="blog-entries">
 #+INCLUDE: ./blog/sitemap.org :lines "2-"
 #+HTML: </div>
-
-* AI
-None of the writing on this website is done with any AI tools.
-This includes any code or prose.
-If for some reason I do use AI, for any reason, it will be clearly labelled.

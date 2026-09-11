@@ -1,5 +1,6 @@
 #+AUTHOR: Jacob G. Moujalli
 #+TITLE: Blogging with Emacs and Org Mode
+#+DESCRIPTION: The website and blog of Jacob G. Moujalli. This site contains writings on topics such as, but not limited to, physics, technology, and education. This is my first blog post which details the various questions a person may have regarded the existence of this site. I briefly discuss the technical details relating to Emacs and Org mode blogging. Some resources I found useful in the creation of this site are presented.
 #+DATE: <2026-09-07 Mon>
 
 <2026-09-07 Mon>
